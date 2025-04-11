@@ -3,11 +3,43 @@
         <title>FFB|FastFood Buds</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            div a {
+                text-decoration: none;
+            }
+
+            input {
+                margin-bottom: 10px;
+                padding: 5px;
+            }
+
+            body{
+                background-color: antiquewhite;
+                font-size: 18px;
+
+            }
+
+
+        </style>
 
 
     </head>
 
     <body>
+        <body>
+            <div style="background-color: rgb(107, 222, 183); padding: 15px;">
+                <a href="Index.html">
+                    <img src="images/buds.jpg" style="height: 50px;float: left;">
+                </a>
+                <br>
+                <a href="Index.html">Home</a>
+                <a href="0">About Us</a>
+                <a href="contactus.html">Contact us</a> 
+            
+            </div>
+
+            <h1>Contact Us</h1>
+            <p>Fill in:</p>
 
         <form action="https://formsubmit.co/holahulu27@gmail.com" method="POST" target="_blank">
             <label for="fname">First name:</label>
@@ -23,6 +55,7 @@
             <input type="email" id="email" name="email" required>
             <input type="hidden" name="_next" value="https://tungsten-kaden.github.io/FastFoodBuds">
             <input type="hidden" name="_subject" value="New email wooooo!">
+            <input type="hidden" name="_autoresponse" value="Thank you Dear customer, you will receive a response within 3 working days">
             <br>
             <label for="pnumber">Phone Number:</label>
             <br>
@@ -32,7 +65,7 @@
             <label for="message box">Message Box</label>
             <br>
             <textarea type="message" id="message box" name="message box" placeholder="Type..." rows="4" cols="50"></textarea>
-S
+
             <br>
             <br>
             <input type="submit" value="Submit">
